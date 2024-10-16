@@ -1,0 +1,134 @@
+{
+    "sectionId": 10,
+    "sectionName": "LP-Footer",
+    "address": {
+        "id": 28,
+        "title": "Qrencia Passion Skills Private Limited",
+        "subTitle": "18th Floor, TOWER-B, Alphathum, Sector 90, Noida, Uttar Pradesh 201305",
+        "description": null,
+        "link": null,
+        "type": "Company-Address",
+        "buttonText": null,
+        "imagePath": "/src/images/Qrencia-white-logo.png",
+        "videoPath": null,
+        "active": true
+    },
+    "externalLinks": [
+        {
+            "id": 33,
+            "title": "For Schools",
+            "subTitle": "Club Qrencia for N.E.P.",
+            "description": null,
+            "link": "https://youtu.be/09LYJcKY4gE",
+            "type": "External-Link",
+            "buttonText": null,
+            "imagePath": null,
+            "videoPath": "09LYJcKY4gE",
+            "active": true
+        },
+        {
+            "id": 34,
+            "title": "For Experts",
+            "subTitle": "Jumpstart your Academy",
+            "description": "Join as Expert",
+            "link": "https://www.qrencia.com/eoi",
+            "type": "External-Link",
+            "buttonText": null,
+            "imagePath": null,
+            "videoPath": "https://youtu.be/CA6HRFeb_QQ",
+            "active": true
+        },
+        {
+            "id": 35,
+            "title": "For Enterprises",
+            "subTitle": "Online Competition Management",
+            "description": null,
+            "link": "null",
+            "type": "External-Link",
+            "buttonText": null,
+            "imagePath": null,
+            "videoPath": "https://youtu.be/CU0BpiADTeg",
+            "active": true
+        }
+    ],
+    "copyRightText": "Qrencia Passion Skills Pvt. Ltd.",
+    "termsAndConditionsText": "Terms & Conditions",
+    "privacyPolicyText": "Privacy Policy",
+    "refundPolicyText": "Refund Policy",
+    "contactDetails":
+        {
+            "id": 29,
+            "title": "Contact",
+            "subTitle": "+91 9650106514",
+            "description": "support@qrencia.com",
+            "link": null,
+            "type": "Company-Contact",
+            "buttonText": null,
+            "imagePath": null,
+            "videoPath": null,
+            "active": true
+        },
+    "socialMediaLinks": [
+        {
+            "id": 36,
+            "title": "Facebook",
+            "subTitle": null,
+            "description": null,
+            "link": "https://www.facebook.com/qrenciaskills",
+            "type": "Social-Media",
+            "buttonText": null,
+            "imagePath": "https://qrencia-b2c-application-bucket.s3.ap-south-1.amazonaws.com/static-content-images/landing-page/Facebook Icon.png",
+            "videoPath": null,
+            "active": true
+        },
+        {
+            "id": 37,
+            "title": "Instagram",
+            "subTitle": null,
+            "description": null,
+            "link": "https://www.instagram.com/qrenciaskills",
+            "type": "Social-Media",
+            "buttonText": null,
+            "imagePath": "https://qrencia-b2c-application-bucket.s3.ap-south-1.amazonaws.com/static-content-images/landing-page/Instragram Icon.png",
+            "videoPath": null,
+            "active": true
+        },
+        {
+            "id": 38,
+            "title": "Twitter",
+            "subTitle": null,
+            "description": null,
+            "link": "https://twitter.com/qrenciaskills",
+            "type": "Social-Media",
+            "buttonText": null,
+            "imagePath": "https://qrencia-b2c-application-bucket.s3.ap-south-1.amazonaws.com/static-content-images/landing-page/Twitter Icon.png",
+            "videoPath": null,
+            "active": true
+        },
+        {
+            "id": 73,
+            "title": "LinkedIn",
+            "subTitle": null,
+            "description": null,
+            "link": "https://www.linkedin.com/company/qrenciaskills/",
+            "type": "Social-Media",
+            "buttonText": null,
+            "imagePath": "https://qrencia-b2c-application-bucket.s3.ap-south-1.amazonaws.com/static-content-images/landing-page/LinkedIn Icon.png",
+            "videoPath": null,
+            "active": true
+        },
+        {
+            "id": 74,
+            "title": "Youtube",
+            "subTitle": null,
+            "description": null,
+            "link": "https://www.youtube.com/@qrenciaskills",
+            "type": "Social-Media",
+            "buttonText": null,
+            "imagePath": "https://qrencia-b2c-application-bucket.s3.ap-south-1.amazonaws.com/static-content-images/landing-page/Youtube Icon.png",
+            "videoPath": null,
+            "active": true
+        }
+    ],
+    "active": true
+}

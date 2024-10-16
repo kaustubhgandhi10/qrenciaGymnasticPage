@@ -1,0 +1,151 @@
+#header {
+  padding: 0.65% 6.5%;
+}
+
+#header img {
+  width: 17%;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 11%;
+}
+
+button.header-login {
+  padding: 0.4rem 1.9rem;
+  color: #000;
+  font-weight: 500;
+  font-size: 14.4px;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+
+button.header-login:hover {
+  background-color: #f5faff;
+  color: #224b7f;
+  border: 1px solid #224b7f;
+}
+
+button.header-join {
+  padding: 0.4rem 1.4rem;
+  background-color: #224b7f;
+  outline: #224b7f;
+  font-size: 14.4px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+button.header-join:hover {
+  background-color: #1c3d66;
+}
+
+.sticky-menu {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+@media (min-width: 992px) and (max-width: 1290px) {
+  button.header-login {
+    padding: 0.2rem 2.1rem;
+  }
+  button.header-join {
+    padding: 0.3rem 1.5rem;
+    font-weight: 500;
+  }
+
+  .header-btn {
+    gap: 10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  button.header-login {
+    padding: 0.2rem 1.2rem;
+    font-size: 12.4px;
+  }
+
+  #header {
+    padding: 0.95% 3.3%;
+  }
+
+  #header img {
+    width: 17%;
+  }
+
+  button.header-join {
+    padding: 0.3rem 1.5rem;
+    font-weight: 500;
+    font-size: 12.8px;
+  }
+
+  .header-btn {
+    gap: 10%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  button.header-login {
+    padding: 0.2rem 1.2rem;
+    font-size: 12.4px;
+  }
+
+  #header {
+    padding: 0.95% 0.5%;
+  }
+
+  #header img {
+    width: 17%;
+  }
+
+  button.header-join {
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+    font-size: 12.8px;
+  }
+
+  .header-btn {
+    gap: 10%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 641px) {
+  button.header-login {
+    padding: 0.1rem 1.2rem;
+    font-size: 12.4px;
+  }
+
+  button.header-join {
+    padding: 0.2rem 0.8rem;
+  }
+
+  #header {
+    padding: 1.75% 0.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  button.header-login {
+    padding: 0.1rem 1.2rem;
+    font-size: 12.4px;
+  }
+
+  button.header-join {
+    padding: 0.3rem 0.7rem;
+    font-size: 11.2px;
+  }
+
+  #header {
+    padding: 1.75% 0.5%;
+  }
+
+  #header img {
+    width: 28%;
+  }
+}

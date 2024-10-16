@@ -1,0 +1,276 @@
+#footerDesc {
+  background-color: #224b7f;
+  padding: 4rem 9.5rem 0;
+  border-bottom: 1px solid gray;
+}
+
+.footerAddress img {
+  width: 45%;
+  margin-bottom: 1rem;
+}
+
+#footerDesc p {
+  font-weight: 400;
+  color: #fff;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.footerAddress {
+  padding: 0 0.8rem;
+}
+
+.footerTitle h3 {
+  font-size: 0.86rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.footerContact h3 {
+  font-size: 0.86rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 0.9rem;
+}
+
+.footerContact {
+  padding: 3rem 1.1rem 3rem 1.6rem;
+}
+
+.footerContact a {
+  display: block;
+  font-size: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+/* FOOTER STARTS */
+#footer {
+  background-color: #224b7f;
+  padding: 1rem 10.4rem;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 0.75rem;
+  padding-top: 6px;
+}
+
+.footerLinks .links {
+  background-color: #fff;
+  color: #224b7f;
+  width: 26px;
+  height: 25px;
+  font-size: 13px;
+}
+
+.termCondition a {
+  font-size: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: end;
+}
+
+.termCondition span {
+  color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1290px) {
+  #footerDesc {
+    padding: 3rem 5rem 0;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 0.9rem 6rem;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #footerDesc {
+    padding: 4rem 3.5rem 30px;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 0.9rem 6rem;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+  .footerContact {
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  #footerDesc p {
+    font-size: 0.65rem;
+  }
+
+  .footerContact a {
+    font-size: 0.65rem;
+  }
+
+  .copyright p {
+    font-size: 0.65rem;
+  }
+  .termCondition a {
+    font-size: 0.65rem;
+  }
+
+  .footerLinks .links {
+    width: 23px;
+    height: 23px;
+    font-size: 11px;
+  }
+  .links {
+    margin-right: 6px;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 0.9rem 4.2rem;
+  }
+  .footerContact h3 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #footerDesc {
+    text-align: center;
+    padding: 4rem 3.5rem 35px;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 0.9rem 6rem;
+    text-align: center;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+  .footerContact {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  #footerDesc p {
+    font-size: 0.65rem;
+  }
+
+  .footerContact a {
+    font-size: 0.65rem;
+  }
+
+  .copyright p {
+    font-size: 0.65rem;
+    margin-bottom: 1rem;
+  }
+  .termCondition a {
+    font-size: 0.65rem;
+  }
+
+  .footerLinks .links {
+    width: 23px;
+    height: 23px;
+    font-size: 11px;
+  }
+  .links {
+    margin-right: 15px;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 1.3rem 4.9rem;
+  }
+  .footerContact h3 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .footerAddress img {
+    width: 25%;
+    margin-bottom: 2.5rem;
+  }
+  .footerAddress {
+    margin-bottom: 30px;
+  }
+  .footerLinks {
+    justify-content: center;
+  }
+  .termCondition {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #footerDesc {
+    text-align: center;
+    padding: 2rem 3.5rem 25px;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 0.9rem 6rem;
+    text-align: center;
+  }
+
+  .links {
+    margin-right: 10px;
+  }
+  .footerContact {
+    padding: 0;
+    margin-top: 6px;
+  }
+
+  #footerDesc p {
+    font-size: 0.65rem;
+  }
+
+  .footerContact a {
+    font-size: 0.65rem;
+  }
+
+  .copyright p {
+    font-size: 0.65rem;
+    margin-bottom: 0.6rem;
+  }
+  .termCondition a {
+    font-size: 0.65rem;
+  }
+
+  .footerLinks .links {
+    width: 23px;
+    height: 23px;
+    font-size: 11px;
+  }
+  .links {
+    margin-right: 15px;
+  }
+  #footer {
+    background-color: #224b7f;
+    padding: 1.3rem 4.9rem;
+  }
+  .footerContact h3 {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .footerAddress img {
+    width: 25%;
+    margin-bottom: 2rem;
+  }
+  .footerAddress {
+    margin-bottom: 18px;
+  }
+  .footerLinks {
+    justify-content: center;
+  }
+  .termCondition {
+    margin-bottom: 0.6rem;
+  }
+}
